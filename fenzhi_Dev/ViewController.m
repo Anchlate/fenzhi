@@ -22,6 +22,13 @@
     
     NSLog(@"新添加了分支 dev ");
     
+    
+    UIImage *image = [UIImage imageNamed:@"1.png"];
+    
+    [self.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+    
+    [self.navigationController.navigationBar setShadowImage:image];
+    
 }
 
 
