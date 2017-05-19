@@ -26,6 +26,7 @@
     UIImage *image = [UIImage imageNamed:@"1.png"];
     
     [self.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+    // 我是分支
     
     [self.navigationController.navigationBar setShadowImage:image];
     
